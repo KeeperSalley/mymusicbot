@@ -24,15 +24,15 @@ module.exports = {
                 fields: [
                     { name: 'Канал', value: track.author, inline: true },
                     { name: 'Просил этот', value: track.requestedBy.username, inline: true },
-                    { name: 'Отсюда', value: track.fromPlaylist ? 'Yes' : 'No', inline: true },
+                    { name: 'Отсюда', value: track.fromPlaylist ? 'Само собой' : 'Хуй', inline: true },
 
                     { name: 'Просмотры', value: track.views, inline: true },
                     { name: 'Длительность', value: track.duration, inline: true },
                     { name: 'Фильтры', value: filters.length + '/' + client.filters.length, inline: true },
 
                     { name: 'Громкость', value: client.player.getQueue(message).volume, inline: true },
-                    { name: 'Повтор', value: client.player.getQueue(message).repeatMode ? 'Yes' : 'No', inline: true },
-                    { name: 'На паузе?', value: client.player.getQueue(message).paused ? 'Yes' : 'No', inline: true },
+                    { name: 'Повтор', value: client.player.getQueue(message).repeatMode ? 'Само собой' : 'Хуй', inline: true },
+                    { name: 'На паузе?', value: client.player.getQueue(message).paused ? 'Само собой' : 'Хуй', inline: true },
 
                     { name: 'Прогресс', value: client.player.createProgressBar(message, { timecodes: true }), inline: true }
                 ],
