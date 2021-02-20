@@ -10,7 +10,7 @@ module.exports = {
     discord: {
         token: 'ODAzNTc0NTY5NTc5NDQ2Mjcz.YA_xIw.MrrbuXhp9kXKPYXMrlBvtQlLZyk',
         prefix: '!',
-        activity: 'Твой анус',
+        activity: track,
       },
 
     filters: ['8D', 'gate', 'haas', 'phaser', 'treble', 'tremolo', 'vibrato', 'reverse', 'karaoke', 'flanger', 'mcompand', 'pulsator', 'subboost', 'bassboost', 'vaporwave', 'nightcore', 'normalizer', 'surrounding'],
